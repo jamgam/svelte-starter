@@ -666,6 +666,10 @@ main {
   border-color: rgba(245, 101, 101, var(--border-opacity));
 }
 
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
 .flex {
   display: flex;
 }
@@ -710,6 +714,11 @@ main {
   font-size: 4rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -728,9 +737,9 @@ main {
   margin-bottom: 3rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .px-4 {
